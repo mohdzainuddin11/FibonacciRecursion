@@ -3,8 +3,13 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
+    //setting up storage/cache for memoisation in the form of an array
+    // - memoisation is an optimization technique used
+    // to speed up computer programs by storing the results 
+    //of expensive function calls and returning the cached 
+    //result when the same inputs occur again.
+    
     private static long[]fibonacciStorage;
-    //setting up storage or cache for memoisation - memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
     public static void main(String[] args) {
 
         //limited to 92nd number
